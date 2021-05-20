@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/53e692ba9c.js" crossorigin="anonymous"></script>
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- heading starts here  -->
+
+        <header>
+
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars navbar-icon text-white"></i></span>
+                  </button>
+
+                  <a class="navbar-brand" href="#">
+                      <img src="images/logo.png" alt="">
+                  </a>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-center text-md-left" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#tutorial">Tutorials</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-md-left" href="#contact">Contact</a>
+                        </li>
+                      
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+
+            <section id="banner">
+                <div class="banner-container">
+                    <div class="banner-contents text-center">
+                        <h1 class="fw-bold text-info mb-5">Learn Somthing New !!!</h1>
+                        <button class="btn btn-lg btn-primary button" onclick="lacation.href='#tutorial'"><i class="fas fa-play me-2"></i> Tutorials</button>
+                        <button class="btn btn-lg btn-primary" onclick="window.open('')" class="request-callback"><i class="fab fa-youtube me-3"></i>Subscribe</button>
+                    </div>
+                </div>
+            </section>
+
+        </header>
+
+        <!-- heading ends here  -->
+
+        <main>
+
+            <!-- features section starts here  -->
+
+            <section id="features" class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="fw-bold">Free to use</h5>
+                            <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae explicabo, fuga quod quo labore odio? </small></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fab fa-gripfire fa-3x icon-style rounded-circle"></i>
+                            <h5 class="fw-bold">Easy to learn</h5>
+                            <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae explicabo, fuga quod quo labore odio? </small></p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-comment docts fa-3x icon-style rounded-circle"></i>
+                            <h5 class="fw-bold">Fast response</h5>
+                            <p><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae explicabo, fuga quod quo labore odio? </small></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- features section ends here  -->
+
+            <!-- about me section starts here  -->
+
+            <section id="about-me">
+                <div class="section-title mb-5 mb-lg-0">
+                    <h3 class=" text-center">About Me</h3>
+                    <hr class="dotted-hr">
+                </div>
+
+
+                <div class="row  mb-5 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="far fa-user fa-3x icon-style rounded-circle"></i>
+                            <h5 class="fw-bold">Personal Info</h5>
+                            <p>Name: Anisul Islam</p> 
+                            <p>Profession : Computer Science teacher</p>
+                            <p>Current address : Tampere, Finland</p>
+                            <p>Website: <a href="http://www.studywithanis.com" target="blank">www.studywithanis.com</a> </p> 
+                            <p><a href="https://www.dropbox.com/s/hcrb4xwuvwpicf7/PERSONAL%20INFORMATIONAnisul%20Islam.pdf?dl=0" target="blank" download="">
+                                <button class="btn btn-primary">Download CV</button>
+                            </a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-5 mb-lg-0">
+                    <div class="col-lg-7"></div>
+
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>    
+                            <h5 class="fw-bold">Achievements</h5>
+                            <p><span>100% Tuition Waiver: </span> Based on excellent academic result in Tampere university, Finland</p> <br>
+                            <p><span>Public Bank Scholarship: </span>  40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p> <br>
+                            <p><span>Silver Button: </span>  from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-5 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="far fa-user fa-3x icon-style rounded-circle"></i>
+                            <h5 class="fw-bold">Education</h5>
+                            <div class="card-desc">
+                                <ol>
+                                    <li>
+                                       <strong>M.Sc. in Software Development</strong> <br>
+                                       2019-2021 <br>
+                                       Tampere University <br>
+                                       Kalivantie 4, Tampere, 33100 <br>
+                                       <a href="https://www.tuni.fi/" target="blank">https://www.tuni.fi/</a> <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                       <strong>B.Sc. in Computer Science & Engineering</strong> <br>
+                                       2013-2017</br>
+                                       Leading University <br>
+                                       Ragib nagar, Ponaullah Bazar Rd, Kamal Bazar, 3112 Sylhet (Bangladesh)  <br>
+                                       <a href="https://www.lus.ac.bd/" target="blank">https://www.lus.ac.bd/</a> <br>
+                                       Result: A (3.92/4.00) <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                       <strong>Professional Diploma in Travel & Tourism Marketing</strong> <br>
+                                       2010-2012 <br>
+                                       London School of Commerce and IT <br>
+                                       59-66 Greenfield Road, London, E1 1EJ (United Kingdom)<br>
+                                       <a href="http://www.lsci.org.uk/" target="blank">http://www.lsci.org.uk/</a> <br>
+                                       Result: Merit <br>
+                                    </li>
+                                                
+                                </ol> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-5 mb-lg-0">
+                    <div class="col-lg-7"></div>
+
+                    <div class="col-lg-5">
+                        <div class="achieve-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>    
+                            <h5 class="fw-bold">Experience</h5>
+                            <div class="card-desc">
+                                <ol>
+                                    <li>
+                                        <strong>Lecturer of Information & Communication Technology </strong><br>
+                                        01/05/2016–01/08/2017 <br>
+                                        Zhingabari High School & College <br>
+                                        Kanaighat, Sylhet, 3180 Sylhet (Bangladesh) <br> 
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <strong>Lecturer of CSE Department</strong> <br>
+                                        10/11/2017–06/04/2018 <br>
+                                        Sylhet Engineering College <br>
+                                        Tilagarh, Alurtol Road, 3100 Sylhet (Bangladesh) <br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <strong>Lecturer of Information & Communication Technology</strong> <br>
+                                        01/07/2018–11/11/2018 <br>
+                                        Jaflong Valley Boarding School <br>
+                                        Jaflong, 3151 Sylhet (Bangladesh)<br>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <strong>Youtuber, Lecturer of CSE & ICT</strong> <br>
+                                        28/01/2010–Running <br>
+                                        1,94,000 Online Student <br>
+                                        1500 Videos on 17 different Computer Science Subjects<br>
+                                        <a href="https://www.youtube.com/user/ANIS3730" target="blank">Visit my YouTube Channel</a><br>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb-5 mb-lg-0">
+                    <div class="col-lg-5">
+                        <div class="skill-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                            <h5 class="fw-bold" >Skills</h5>
+    
+                                <table>
+                                    <tr>
+                                        <td>HTML</td>
+                                        <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>CSS</td>
+                                        <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>JS</td>
+                                        <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>BOOTSTRAP</td>
+                                        <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>JQUERY</td>
+                                        <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- about me section ends here  -->
+
+            <!-- Tutorials section starts here  -->
+
+            <section id="tutorial">
+                <div class="section-title mb-5 mb-lg-0">
+                    <h3 class=" text-center">Tutorial</h3>
+                    <hr class="dotted-hr">
+                </div>
+
+                <div class="row text-center mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover-768x512.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover-3.1-1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover4.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover4.2-1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+
+
+                <div class="row text-center mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover5.1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover6.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover-768x512.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://www.studywithanis.com/wp-content/uploads/2018/01/ICT-Cover-3.1-1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title fw-bold">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!-- Tutorials section ends here  -->
+
+
+            <!-- feedback section starts here  -->
+
+            <section id="feedback">
+                <div class="section-title mb-2 mb-lg-0">
+                    <h3 class=" text-center">Feedback</h3>
+                    <hr class="dotted-hr">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-pause="hover">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p>Item 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident itaque asperiores numquam eveniet facere!</p>
+                                    <img class="feedback-img rounded-circle mb-3 " src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBISEhIQEBUQEBUQDxAPDw8PDw8QFhUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGC0dHR0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLSstLS0tLS0tLS0tM//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xABDEAACAQIEAwYCBwcBBgcAAAAAAQIDEQQSITEFQVEGEyJhcYGRwQcUFTJCobEjQ1Jy0eHwkjNiorKz8RYkNFNzdIL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAkEQEBAAICAgICAgMAAAAAAAAAAQIRAxIhMUFRBCJhsRMykf/aAAwDAQACEQMRAD8A9quIiOYKSEMIAkIYdAZxDCAjiEIAcQhwBCEVeI8So4eGevVp0Y/xVJKKb6K+7HIS0OefcT+lTDwzOjSnXjFPxuapZnytFpu1+bs/Ior6Wqc6FR91KnWUG6UFJSU58le1kv6WL6UPTxk1e3Nbo8U7OfSRiadf/wA1W72m9ZudOEZJJO2VQSs3ppsc/jO2uKnWnW76opOpnhDPNU4xd/Aop7Lw/BMroW4+ixHkPZz6WJxioYuCnl/fUvvWvtKL3dr6p9Lrmem4Dj2Fr27rEUambZRqRzP0i9SbhYbQYxIi0ZmYYdjACGEIAQwhMYIQhADIcp0cTqXECSHEIAdIdsr1sUkZeJ4olzA24mOznqXGF1C/bC6i2NtwRSwmNUuZcUkMbOiSGsOPQJuyu+Wr9D5u7Sdqq2KxP1iUpRTuqVPVKlSu0oW9LNvm35HrH0o9pu4w7w9Gce+rpxnaT7yjSa1lZbN7K9udr2PCalO701b/ACNMYVXJ4hO8kvvK043Vr89Pe5QvZprVdC5T4bUtezWnTcryw0k7NFSwXGo1at1fnaz9tvyEo+HX4hPqzVnb+gOcZbWY9psLvOq0/M1uHdpMTRUVTnFRy5JU5UqcqVSF7/tINWnz1eursYcovmJTK2Xp719GvaeWInWoTt+zhCrC0nOn4r5lSk/F3ekWoy1jmktkku7Z8rYHGTpzU6fhkl4ZK6cJ62lFp6Nb/wBT6X7O8VWJwtKst5QSqR5wqrScX6O5lyY/K5dtBjDsiYqIQwgBDMQhghDCAOQ4fxPNPc6eji1lPHOD8RcZ6vdnZU+L2iORljk7WnikxYqpZHI8P4peR0qxMXHUFS7YuOryuzDx7drtm/ja0V0OQ49xBPRC9JqjX4k4uyZWXFp33M2tPUFCY5jtHl3vCePaK7Ot4dxNStqeNxqtbHT8B4o1a4aVMnrVOaaI4qvGnCdSbyxhFzm3soxV2/gjn+G8VTS1C9rcU3w3FuO/1ap73jZocabeD8c4nUxdedWbk+8k5Ri7JqL+7G0dNFZex2nZTsjCFPvKyvKSul0OS7M0FUxKutIvNbRo9WrStFckkZc3J8R1cHHv9mRisDFPblpysY+J4bTk3eKv1N2rO5n4iDMpa3uMZH2bBK1v7A3gIaWS9TTnHyK02ay1lcYz58Ig+SOc41wZ0/FHWP6HZwkRxVJSg0+hrjaxyxlebxbT3PcfoU4gp4SrTbvKlU13vkndx9dVM8TxdLLNro/yPZvoMgnhK0v4cTKC20vClKXL+XdvZ7G2XnFhPb0mRAlIgzDSjjMYQAhDCuIHEREMPnyM9TXw3EmlZmGguY0052/heKtSublLtBocTSkHdUmw5k6HFcVlO/Ix6mru9SEKzGnMkbDqwRWcCy2PlLl0VqvBamvw6SSKOVDSq22FvY27HhNexvcabqcOxcFvLC1bebyN2/I894VxBqWp3PDuIKUXF/ii0/RrUXq7aY15r9H1DNiH/urM79F/ex6XiKfhvJpK19Thvo6oZaldu3gioO2z8TTt/pLvHsTKc3C7le7acskIRXOT2SRy8vnksenw+ONo1uI0F+8j8eYJ1oye68jz7iFKlmspQm/92Tt7N7mt2Zp3laMpfyt3LuEk2mZ23TpqkUtyvUUeqXuV+K5lF628zj60HOTeacuutkisJtOeVnp2eRcmn6DuF011RzeDrOmtJSt1bzK/qb+DxDktVqtmuaNIyu9OE4z/ALWXkz2z6FsJk4Xmf7/EVKvLZZaa/wCmeL9pI2xNX+a6S80n8z6O7JcJ+qYHD4fnTpLO+tSXim/9TZtf9XP8tKRBk5EDMzMQhADCEIQIYVxAHzxJEItl2UBqVHUvs50aZPMXI4fQq16ViN7B1UIuqDixSKmIHhMLmKcWTVQLANKY+S5XUgyqWFoHpPI7m1huIXjlTab0i1upfh/OxhSq3C4afij/ADL9RX0rDLrlL9Ot7L4JLFYyMdm6e2iv42/1uG45wOks0nFTkrOOZZkmnfYfsjUy1MS2ndVsr9v+5r8VqZldfG5w2/t/x7U9fx5/t5Lj8K5Yh1O6d5P7v7ty2vb5HUdk+CzptVJLLu/7expONOm3JpOXV8joqdS+H7xq14WXk3/Y0yztnVGPHjL2cdxug5xklzfxONxWDspxlGV21la/Bby5ne1pc/gZ7pQq67NG8vWMcp2rmeGYBSioq8XduU1ZOd/wuO1vU6LhmDcY2vctUsFYvUIJL9B9touPX04bG4JTx1S7soyg1bR5rRt+jPY/o4xtWrg5OtNzca84QlJ3lkSjZN89WzyHiE3HG1Gusf0R6R2Xxyo4bLe2arOfxlb5FW+Wd1MN/wAu6nUQCVVHL1OPrqSocVT5hKx3t0NTEWA/aCMTF47TRmY8c+osstB2McagixSOPp499SxHHMntRt1X1hCOa+vMRXYdnlg8KlmSAVC9MtL0MRoAr1tCtnFYcx0ApVCUGO6RKECiEUQU2WVsVa24GLAarIFGZGUw0Esxd4VFTrUot2UqkIt9E5JFKELhoRsTlBPb0bCYXuqlaXKrPOldvLok18/cWOrqxi9n8dKcZ55OTUlq3rZq3yLrjm32Wp5uUsy8vb4s5ljufKj3Mqj8iXFON4m0oOk4whbJld00lrdcgc+O0YVckp5Ipb2ve3L1KXEuP0ZK0VKz5t+L4G0xt14R28VVp8em5qMqcnF87bFnCtx166tdDMjxKi3+KPm7P4on9owzJRmpXXI3uPhz9tVvwxHmT78yFJ2uugTD1HbUnE8qo08DJ16k5WzSd6d9UvNlmvipRbhd+F5fgB+08sp+FSeZ2fpsUs7bbbu27t+bL9uTlylkkXoYh31ZfoY23Mw3IbvmgkYy6dPHHt8wVbGW5mDTxdh6uKuV18quW42KHEXc0qfEDkY1i1Gs2Vn59Im3UfaaEczmHM+tUzqdQHXkDhIUpXNfk9IwkFVQeFPQHVgUkaM7krleDHlMAOqhJwuU4S1L8HoJSu6YWnQuAqz1J0azGS4qGgOcbBqc7kZogLPB8RknZ7TWX33X9Pc2HXajJJ+hzUd0dPxqj3VZ2+7J3j0XkcvPjNy/bv8AxMr1s+mfhYwgnLKnLe7V3f5FPiXHLtKVLNbTZGgsRS5+60sVMVjaX4VFv2FhbttctT6Z0McpvSCh7ILUpwtolda6ImsTTtskyvWrR6m+7WGWSwsV4SCxLs38DO75ydomrXoZKMU95SzSfotvzCRnnbqs+wWLHjATRWnJozZGSJMg2OQISQ1iYitkHmCxrNEMtyTphuGf6yxA+6EG4ScsJJcitKDT2Z0taxTlTRXVflnUGRxDNNUUBrYRMWvJVkOY6RZrYSMd5JXaSvzYPIl+Jfr+gzkKnEu00VO8iubfoh/ryXJ/FEXfweqtLD3JxwyKD4k+SXu2wc+Ky5JL2ZHXMulbCikJq/8AUxIYypJ/est3ZRWnwNCnVeRt+kbh0s905x/aOJxWVTcf3dOU/WW0F8Wn7HdY6Ua9KM91OCkvdJnl9erelWf8VSEP9Kcn+qOs7H8SzYeNNu7h4V6cjP8AIx8S/Tu/Fyktx+1HjXCpq8otyS+KOZqSnF65kek4q1n/AI0ctjcD4m9H7W/Qjj5PtfLxfTnozm3uy9h8LUl1NHD4NLfL8LmnSpo1ubGcYPDcDGGr1f5ID2hxOWpRV9LPMvKT0f8AwmjOqoq72RyHEsY6s3Pk5qMP5Ip/NlcXm7Ty6mOmuqpFzKOGq3Vun6FhM0scgneDwTbsKlTuXsNR1Fcgb6voU6kbG1WVkY9SVxbOhxkWKTuVmWsMhVKWUQbKIFM54iTe4alWl1M+m7mtwy19TWTardRboU5vkEqUWld6Jas6DAU4NGN2zxKhGnSjvVbcvKEbX/X8jTLDrNs8eTtlpyfE6uarHpq17IgDxL/ax9H+gaRk6NBTYKTCSQOQyM2MOhWAD0lpffqFxGItBpdCtCLV3dK/LcDiI3i+d9FfqxAacUsNSjdZpylWav4rPRO3og3Z/EuEvcxZVf2mblFqK5+BLKvyNbhNPM9OpPJP1Vx39ndd7mjfqjOxNJ32ZawcWopE6kPY4pNV373GfCgNUqqJZrOyMjGTsmy8ZtlldKPGMY2sqe5kyeqj/Avze4WUrybK8L6vq7+x24Y9Y4s8u1HztbaFihjL6S081sUpzIxKsTI6zBwTV00/TUuYeLuzksLjJ03eLt5bp+qOhwHGoS0n4H1/C/6HPnhZ5nlOtLeOdov0MLObWNneOhi1qTXIrC7K3Z+8LmFehmJPozVw0Go7DyhwbMIgInR6Z9OkN9YlB6F2phGinVosvelXWmlg+OyWjRT4liXVq5ntGCivVtt/IAo2Gl8ibnanjxnZRxD/AGkf85FqKKGJl44+pdjMbaGm9QFTcLRV5Eaq8RUJGxOeyRFvb1Gk9RkdMrY+WiXVloo4x3kvJBCqNLDrM15FvhGO7mav4knaS6Lk0QtpfqkV8VDVSXuFmxLr09LwlSMkpRtZq6a2aDSZxvZTiuWXdS2l9x9H0Ox5fM488etdvHn2m1StFWuzhuOcRcpyjHRRlbzduZt8d7RJNwo6vZ1OS/lXP1OSrO5txYWeaw5uSXxB1VvDzej9ScUVsKt+nzLR0MJEZU1uMTRG4Ah4sYQBewmPlDnddHqjo+HYqjWtF2hL+GT0b8n8jj7kozsK4ylp3z4Ougb7O02OY4b2oqUllku9VtLu0l/+jruCcXjXp57ZdbSi3ez9ee5nlLAp/ZnkI3frMfIRI0hUoQStPCuy/Facbe9wVLhGGmm5UqyX8UYuUF6yOl4tg51EnC8nSvF3upyvbblJba+TKDg5XUouEreLInBO99Wum6Nrxs/8jK412Vw1PB1MTCopKnFW0km5yajFb9WjzrEVDre1s5UaKpOUn3k8yTe8Y9V6uJw1d3M7jq6b4XxsDEz1T8yzQi3d/ApV9i/hHoO+jntZpQyx82CaJydxphDoTG5skQuVEpMoT1k/UtzkVKQ4mrU9kBl0C1XogDCFQ43TVr3T0a38jd4hxepOmoXcVbx2f3nz9jEVa22/8W+X2B1Fmber10uK4ynMrBKso9fhqV5O4TuxKF2l1KIajC0V56k2OMJSM3p66CSIvV+hMZEIQwA4zFcjNgDJnQcAxDjTlZ/i+SOefQ3exFLvq8qXWm5r1i18mycvMKzbU+vz6iOg/wDDYjHwOtd3g8RGbtrF76vW/rzLtOkrrO03+CTdpPyOeoNxnGV00n4lazWnL3CdqOPRpYSrUUfFGFqTaTtVl4Ytejd/Y6cJb5y9sLreo8x7c8VWIxtWUfuU33NO2zUHZy95Zn6WOZkwkpJIrVa99jP3duueJpCs9CzgpaIoyYfAT5BfRT21YkGPFiJiw6gKKDVQUWXEULEvR/AHRjqLEy2XmSo9RpvtKvLUrTkSqSuyEVqMjxiEUSUESWwAKQ9Na36EbhILT1YU4caTshwc3rYDKKJDIcCIZscjIQPcFe79NBTloMtEBlNNam79H9Rx4lRt+JVF7d3J/Ixoaqx0P0d4VS4hBt27qnUqevhyW/47+wr6pR6znEQ7+n1Ecfaq05f7Vrfx++WL+Rz/AGv4xUlGFGUm1fvJKyWuqjt7mzGmcDxXGd7WnJbZrR/lWi/S/ud1Y4Tyr1JA8ozY0iWyMx8H94HInhd2BNWMglytCQa5GlmrPb/OgJD1JELlxNV6rvP0JylZFZy8T9ScnyKTSSJwZBslHYCFixVZWSQogq0vEIyiHaBU1qgtwOItg4iqvZdRKPr8RhMYjl82N8QJJyIuZBkZvQRmbu/QLEDTCoAdaM6LsTUccWpR/wDZqJ+jS/sc+0dD2Et9Ymnv3Msq6+KN/wAhxOXp1nfSEE+rsYhPhU4nW7uhVltlpyt62svzseaXOv7bY21OFJbzeeX8sdvz/Q45F08J4SuJjpEZMTRCRLDbsg2Ph3r7ATQgEcivGYRskztkZy0foM2BxErR9SoAKe5PMQgtCcYjSQXN/bS5FImkASpgJvxMPEq1HqxBZovd+wS5CivCvPUaswNDd3JDRHAE/wDNCLJMi2ARbAzYSbAIALAKgUQkQNNM0+zlRxxdBrnUUX6S8L/UyWza7HUHPG0+kFKpL0SaX5tDiMvT0PKxB+8j1GFpm817af8AqY//AAx/5pmHEQh1pPR5EGIQloMejuIQEsxC8hCEZlt7/IDitl6iEOEGgsRCGRcyfUQgBRK1TcQhGu09o+iA1t/YcQGURxhARMiIQAKYKIhAILEnAQgM8zqPo+/29X/67/54iEOIy9OlEIRit//Z" alt="">
+                                    <h6>Anisul Islam</h6>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>Item 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident itaque asperiores numquam eveniet facere!</p>
+                                    <img class="feedback-img rounded-circle mb-3 " src="images/4.jpg" alt="">
+                                    <h6>Tanjim Ahmed</h6>
+                                </div>
+                              <div class="carousel-item">
+                                    <p>Item 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum provident itaque asperiores numquam eveniet facere!</p>
+                                    <img class="feedback-img rounded-circle mb-3 " src="images/3.jpg" alt="">
+                                    <h6> Rownok Jahan</h6>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- feedback section ends here  -->
+
+            <!--contact section  starts here  -->
+
+            <section id="contact">
+                <div class="section-title my-4 mb-lg-0">
+                    <h3 class=" text-center text-light">Contact Me</h3>
+                    <hr class="dotted-hr">
+                </div>
+
+                <div class="row mb-3 mb-lg-0">
+                    <div class="col-lg-12">
+                        <form action="mailto:mdrownokj@gmail.com" method="POST" enctype="text/plain" class="w-80 text-center m-auto was-validated">
+                            <div class="from-group">
+                                <label for="fullname" class="mb-2 fw-bold text-uppercase">Fullname</label>
+                                <input type="text" id="fullname" class="form-control" name="fullname" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback" style="color: white;">Please enter your fullname as soon as possible</div>
+                            </div>
+        
+                            <div class="from-group">
+                                <label for="email" class="mb-2 fw-bold text-uppercase">Email</label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback" style="color: white;">Please enter your email as soon as possible</div>
+                            </div>
+        
+                            <div class="from-group"> 
+                                <label for="subject" class="mb-2 fw-bold text-uppercase">Subject</label>
+                                <input type="text" id="subject" class="form-control" name="subject">
+                            </div>
+        
+                            <div class="from-group">
+                                <label for="message" class="mb-2 fw-bold text-uppercase">Message</label>
+                                <textarea id="message" style="resize: none;" name="message" id="" class="form-control" cols="30" rows="4"></textarea>
+                            </div>
+        
+                            <div class="from-group">
+                                <input type="submit"class="btn btn-info mt-3 py-2 fw-bold me-3" value="Submit">
+                                <input type="reset" class="btn btn-info mt-3 py-2 fw-bold" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+            <!--contact section  ends here  -->
+
+        </main>
+
+        <footer>
+            <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                    <p class="mb-0 mt-1"><small> &copy; Copyright Anisul Islam</small></p>
+                </div>
+
+                <div class="col-lg-6 text-center text-lg-right">
+                   <a href="#">Home</a> 
+                   <a href="#"><i class="fab fa-facebook"></i></a>
+                   <a href="#"><i class="fab fa-youtube"></i></a>
+                   <a href="#"><i class="fab fa-instagram"></i></a>
+                   <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js, jquery, popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    
+</body>
+</html>
